@@ -77,9 +77,9 @@ def getLastLevel(level,name,f,total):
                 print num_level * '    ', level, name,'is crawling'
                 f.write((num_level * '    ' + level + ': ' + name + '\n').encode('utf-8'))
                 f.flush()
-                if name == u'过失以危险方法危害公共安全':
-                    FLAG = True
-                if FLAG:
+#                 if name == u'过失以危险方法危害公共安全':
+#                     FLAG = True
+                if True:
                     crwal_condition(condition,total)
                 return
             else:
